@@ -18,7 +18,7 @@ const generateMarkdown = data =>
 ## Description 
 ${data.description}
 
-## Installation Instructions
+## Installation
 ${data.installation}
 
 ## Usage

@@ -52,6 +52,11 @@ inquirer
     },
     {
         type: "input",
+        name: "repo",
+        message: "What is your repository link?"
+    },
+    {
+        type: "input",
         name: "githubInfo",
         message: "What is your github user name?"
     },
@@ -60,11 +65,7 @@ inquirer
         name: "email",
         message: "What is your email?"
     },
-    {
-        type: "input",
-        name: "repo",
-        message: "What is your repository link?"
-    },
+   
   ])
 
   .then((data) => {
