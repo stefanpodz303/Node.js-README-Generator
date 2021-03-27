@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateREADME = require('../utils/generateMarkdown');
+const generateREADME = require('./utils/generateMarkdown.js');
 
 
 inquirer
@@ -16,12 +16,12 @@ inquirer
     {
         type: "input",
         name: "description",
-        message: "Please provide a description of your project."
+        message: "Please provide a  short description of your project."
     },
     {
         type: "input",
         name: "installation",
-        message: "Please provide the installation instructions."
+        message: "Please provide any installation instructions if applicable."
     },
     {
         type: "input",
@@ -36,7 +36,8 @@ inquirer
         choices: [
             'Apache 2.0',
             'MIT',
-            'GNU GPL v3.0'
+            'GNU GPL v3.0',
+            'ISC'
         ]
     },
     {
@@ -47,7 +48,7 @@ inquirer
     {
         type: "input",
         name: "test",
-        message: "Please provide the project test instructions if applicable."
+        message: "Please provide any project test instructions if applicable."
     },
     {
         type: "input",

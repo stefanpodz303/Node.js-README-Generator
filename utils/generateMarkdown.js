@@ -18,7 +18,7 @@ const generateMarkdown = data =>
 ## Description 
 ${data.description}
 
-## Installation
+## Installation Instructions
 ${data.installation}
 
 ## Usage
@@ -30,11 +30,11 @@ ${data.license}
 ## Contributors
 ${data.contributors}
 
-## Test
+## Tests
 ${data.test}
 
 ## Repository
-${data.repo})
+${data.repo}
 
 ## GitHub
 - ${data.githubInfo}
