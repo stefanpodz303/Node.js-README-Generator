@@ -67,19 +67,25 @@ inquirer
         message: "Please provide the project usage."
     },
     {
-        type: "input",
-        name: "licence",
-        message: "Please provide the project licence or your badge link."
+        type: 'checkbox',
+        name: 'license',
+        message: 'Choose a license',
+        default: 'MIT',
+        choices: [
+            'Apache 2.0',
+            'MIT',
+            'GNU GPL v3.0'
+        ]
     },
     {
         type: "input",
-        name: "contributing",
-        message: "Please provide the contributing parties."
+        name: "contributors",
+        message: "Please provide contributing parties."
     },
     {
         type: "input",
         name: "test",
-        message: "Please provide the project tests."
+        message: "Please provide the project test instructions if applicable."
     },
     {
         type: "input",
