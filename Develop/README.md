@@ -1,12 +1,9 @@
+# sagg
 
-
-const generateMarkdown = data => 
-
-`# ${data.title}
-
-![APM](https://img.shields.io/badge/license-${data.license}-blue)
+![APM](https://img.shields.io/badge/license-MIT-blue)
 
 ## Table of contents
+
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
@@ -17,29 +14,26 @@ const generateMarkdown = data =>
 - [GitHub Info](#GitHub) 
 
 ## Description 
-${data.description}
+asfdsa
 
 ## Installation
-${data.installation}
+sdfdas
 
 ## Usage
-${data.usage}
+sfsa
 
 ## License
-${data.license}
+MIT
 
 ## Contributors
-${data.contributors}
+dfsdfs
 
 ## Test
-${data.test}
+sfsad
 
 ## Repository
-${data.repo})
+- safsad)
 
 ## GitHub
-- ${data.githubInfo}
-- ${data.email}`;
-
-
-module.exports = generateMarkdown;
+- dsfasf
+- fsaf
