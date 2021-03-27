@@ -1,5 +1,4 @@
 
-
 const generateMarkdown = data => 
 
 `# ${data.title}
